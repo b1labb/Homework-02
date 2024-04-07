@@ -1,0 +1,152 @@
+:root{
+    --sky-blue: #2196F3;
+    --black: #212121;
+    --light-black:  #2F303A
+    --grey: #757575;
+    --white:#FFFFFF;
+    --primary-font:'Roboto',sans-serif;
+    --secondary-font:'Raleway',sans-serif;
+}
+
+
+/* Header section */
+.header{
+
+}
+
+
+.header__logo__web  {
+    
+    font-family:'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 24px;
+    color:var(--sky-blue)
+}
+
+a {
+    text-decoration: none;
+}
+.header__navigation a{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+}
+.header__navigation b{
+    color: #2196F3;
+}
+
+button {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+button.service{
+    font-family: var(--primary-font);
+    background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color:var(--white)
+}
+button:hover{
+    background-color:#757575; 
+}
+
+button:focus{
+    background-color: #2196F3;
+}
+
+.header__navigation ul {
+    list-style: none;
+}
+
+.header__navigation a {
+    text-decoration: none;
+    font-family:'Roboto',sans-serif; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+      
+}
+
+.header__info a {
+    text-decoration: none;
+    font-family: 'Ronoto',sans-serif;
+    font-weight: 500;
+    font-size :14px;
+    line-height: 16px;
+   
+}
+
+
+.style__title{
+    font-family: var(--primary-font);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
+/* Strong section points */
+.strong__section__title{
+    font-family: var(--primary-font);
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+.strong__section__text{
+    font-family: var(--primary-font);
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Conteiner project realizate */
+
+.card{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+/* Conteiner team */
+.conteiner__name{
+    font-family: var(--primary-font);
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.conteiner__roll{
+    font-family: var(--primary-font);
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* Footer section */
+
+.footer__logoweb{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 24px;
+    color: var(--sky-blue)
+        
+}
+
+address{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px; 
+    color: #FFFFFF;
+    background-color:#212121 ;
+}
